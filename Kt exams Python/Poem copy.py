@@ -1,0 +1,8 @@
+original=input("Enter the name of file to copy")
+copy=input("Enter the name of the new file")
+ifile=open(original,"r")
+ofile=open(copy,"w")
+data=ifile.read()
+ofile.write(data)
+ifile.close()
+ofile.close()
